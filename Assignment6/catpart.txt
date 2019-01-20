@@ -1,0 +1,38 @@
+# Filename
+  File exists or not:
+    Does not exist.                                      [error]
+    Exists.                                                
+
+# File
+  Size:     
+    Empty.                                                  [property emptyfile]                                                                                     
+    Not empty.
+  Content:                                                  
+    Spaces.                                                 [if !emptyfile][property onlyspaces]
+    numeric.                                                [if !emptyfile][property onlynums]
+    special characters included.                                     [if !emptyfile][property onlyspecchars]
+    alphanumeric.                                           [if !emptyfile][property alphanums] 
+
+# Options
+  Encoding(-n value):
+    Value is less than 0.                                   [error]
+    Value between 0 and 25.                                 [if !emptyfile && !onlyspaces && !onlynums && !onlyspecchars && alphanums][property encoded]
+    Value is greater than 25.                               [error]
+    No value provided.                                      
+  Rotation(-r or -l value):
+    Right(-r  value):                                       
+        Value is less than 1.                               [error]
+        Value is greater than or equal to 1.                [if !emptyfile][property rightrot]
+        No Value provided.                                  [property norightrot]
+    Left(-l  value):
+        Value is less than 1.                               [error]
+        Value is greater than or equal to 1.                [if !emptyfile && !rightrot][property leftrot]
+        No Value provided.                                  [property noleftrot]
+    No Rotation Given.                                      [if !emptyfile && !rightrot && !leftrot && noleftrot && norightrot]
+  Capitalization of given substring(-c str):
+    String(str) not found in file.                               [property strnotfound]
+    String(str) found in file.
+    String(str) is null.                                                                            
+    String(str) has more than or equal 1 character.              [if !strnotfound && !emptyfile]
+  Default Value:          
+    Default -n value.                                       [single][if !emptyfile && !encoded]

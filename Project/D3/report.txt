@@ -1,0 +1,65 @@
+JUnit version 4.12
+.......E.E.E.E.E.E.E.E.E.E.........
+Time: 0.756
+There were 10 failures:
+1) encodeTest16(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #8. 
+Arguments used: [-n, -2, C:\Users\Sriram Anne\AppData\Local\Temp\junit1035851484829771995\junit3629594446339438674.tmp]
+File: 8500118238 
+Encode result: 8500118238
+2) encodeTest17(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #1. 
+Arguments used: [-r, -2, C:\Users\Sriram Anne\AppData\Local\Temp\junit458434761644291902\junit1777291527266641312.tmp]
+File: 8500118238 
+Encode result: java.lang.IndexOutOfBoundsException
+3) encodeTest18(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #7. 
+Arguments used: [-n, C:\Users\Sriram Anne\AppData\Local\Temp\junit1803168594535438279\junit4343186225445722766.tmp]
+File: This is testing message 
+Encode result: java.lang.NumberFormatException
+4) encodeTest20(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #5. 
+Arguments used: [-d, is, C:\Users\Sriram Anne\AppData\Local\Temp\junit1469446966440021087\junit6305634821638629223.tmp]
+File: This is testing message 
+Encode result: java.lang.NumberFormatException: For input string: "is"
+5) encodeTest21(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #2. 
+Arguments used: [-c, , C:\Users\Sriram Anne\AppData\Local\Temp\junit7552117613662431248\junit6652418829860180076.tmp]
+File: This is testing message 
+Encode result: java.lang.ArrayIndexOutOfBoundsException
+6) encodeTest22(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #9. 
+Arguments used: [-c, This is testing message, C:\Users\Sriram Anne\AppData\Local\Temp\junit1520511580398173382\junit7353640997603164622.tmp]
+File: This is testing message 
+Encode result: THIS IS tEStING MESSAGE
+7) encodeTest23(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #3. 
+Arguments used: [-r, 1, -r, 2, C:\Users\Sriram Anne\AppData\Local\Temp\junit8684458276818999247\junit1315162068387454191.tmp]
+File: Howdy Billy,
+I am going to take cs6300 and cs6400 next semester.
+Did you take cs 6300 last semester? I want to
+take 2 courses so that I will graduate Asap! 
+Encode result: 4702101712 4122252512,
+48 1426 2002220120 0702 07142418 16066300 140117 16066400 01181107 0618261806071805.
+432217 120208 07142418 1606 6300 25140607 0618261806071805? 48 10140107 0702
+07142418 2 16020805061806 0602 07211407 48 10222525 2005141708140718 40061403!
+8) encodeTest25(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #6. 
+Arguments used: [2, C:\Users\Sriram Anne\AppData\Local\Temp\junit2654883586925169762\junit7100505980728327768.tmp]
+File: This is testing message 
+Encode result: 46080919 0919 20051920091407 13051919010705
+9) encodeTest26(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #10. 
+Arguments used: [-r, 1, C:\Users\Sriram Anne\AppData\Local\Temp\junit3904962362673424565\junit3334727286735780542.tmp]
+File: this is a test
+ message 
+Encode result: java.lang.ArithmeticException
+10) encodeTest27(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.b: You found Bug #4. 
+Arguments used: [-d, 1, C:\Users\Sriram Anne\AppData\Local\Temp\junit3920410089248690683\junit5750260105968132498.tmp]
+File:  
+Encode result: java.lang.IndexOutOfBoundsException
+
+FAILURES!!!
+Tests run: 25,  Failures: 10
+

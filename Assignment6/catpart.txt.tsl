@@ -1,0 +1,717 @@
+
+Test Case 1  		<error>
+   File exists or not :  Does not exist
+
+
+Test Case 2  		<error>
+   Encoding(-n value) :  Value is less than 0
+
+
+Test Case 3  		<error>
+   Encoding(-n value) :  Value is greater than 25
+
+
+Test Case 4  		<error>
+   Right(-r  value) :  Value is less than 1
+
+
+Test Case 5  		<error>
+   Left(-l  value) :  Value is less than 1
+
+
+Test Case 6  		<single>
+   Default Value :  Default -n value
+
+
+Test Case 7  		(Key = 2.1.0.4.3.3.1.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Empty
+   Content                                   :  <n/a>
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) not found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 8  		(Key = 2.1.0.4.3.3.2.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Empty
+   Content                                   :  <n/a>
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 9  		(Key = 2.1.0.4.3.3.3.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Empty
+   Content                                   :  <n/a>
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) is null
+   Default Value                             :  <n/a>
+
+
+Test Case 10 		(Key = 2.2.1.4.2.3.1.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  Spaces
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  Value is greater than or equal to 1
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) not found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 11 		(Key = 2.2.1.4.2.3.2.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  Spaces
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  Value is greater than or equal to 1
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 12 		(Key = 2.2.1.4.2.3.3.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  Spaces
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  Value is greater than or equal to 1
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) is null
+   Default Value                             :  <n/a>
+
+
+Test Case 13 		(Key = 2.2.1.4.2.3.4.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  Spaces
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  Value is greater than or equal to 1
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) has more than or equal 1 character
+   Default Value                             :  <n/a>
+
+
+Test Case 14 		(Key = 2.2.1.4.3.2.1.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  Spaces
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  Value is greater than or equal to 1
+   Capitalization of given substring(-c str) :  String(str) not found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 15 		(Key = 2.2.1.4.3.2.2.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  Spaces
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  Value is greater than or equal to 1
+   Capitalization of given substring(-c str) :  String(str) found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 16 		(Key = 2.2.1.4.3.2.3.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  Spaces
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  Value is greater than or equal to 1
+   Capitalization of given substring(-c str) :  String(str) is null
+   Default Value                             :  <n/a>
+
+
+Test Case 17 		(Key = 2.2.1.4.3.2.4.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  Spaces
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  Value is greater than or equal to 1
+   Capitalization of given substring(-c str) :  String(str) has more than or equal 1 character
+   Default Value                             :  <n/a>
+
+
+Test Case 18 		(Key = 2.2.1.4.3.3.1.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  Spaces
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) not found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 19 		(Key = 2.2.1.4.3.3.2.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  Spaces
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 20 		(Key = 2.2.1.4.3.3.3.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  Spaces
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) is null
+   Default Value                             :  <n/a>
+
+
+Test Case 21 		(Key = 2.2.1.4.3.3.4.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  Spaces
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) has more than or equal 1 character
+   Default Value                             :  <n/a>
+
+
+Test Case 22 		(Key = 2.2.2.4.2.3.1.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  numeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  Value is greater than or equal to 1
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) not found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 23 		(Key = 2.2.2.4.2.3.2.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  numeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  Value is greater than or equal to 1
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 24 		(Key = 2.2.2.4.2.3.3.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  numeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  Value is greater than or equal to 1
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) is null
+   Default Value                             :  <n/a>
+
+
+Test Case 25 		(Key = 2.2.2.4.2.3.4.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  numeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  Value is greater than or equal to 1
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) has more than or equal 1 character
+   Default Value                             :  <n/a>
+
+
+Test Case 26 		(Key = 2.2.2.4.3.2.1.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  numeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  Value is greater than or equal to 1
+   Capitalization of given substring(-c str) :  String(str) not found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 27 		(Key = 2.2.2.4.3.2.2.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  numeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  Value is greater than or equal to 1
+   Capitalization of given substring(-c str) :  String(str) found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 28 		(Key = 2.2.2.4.3.2.3.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  numeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  Value is greater than or equal to 1
+   Capitalization of given substring(-c str) :  String(str) is null
+   Default Value                             :  <n/a>
+
+
+Test Case 29 		(Key = 2.2.2.4.3.2.4.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  numeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  Value is greater than or equal to 1
+   Capitalization of given substring(-c str) :  String(str) has more than or equal 1 character
+   Default Value                             :  <n/a>
+
+
+Test Case 30 		(Key = 2.2.2.4.3.3.1.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  numeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) not found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 31 		(Key = 2.2.2.4.3.3.2.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  numeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 32 		(Key = 2.2.2.4.3.3.3.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  numeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) is null
+   Default Value                             :  <n/a>
+
+
+Test Case 33 		(Key = 2.2.2.4.3.3.4.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  numeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) has more than or equal 1 character
+   Default Value                             :  <n/a>
+
+
+Test Case 34 		(Key = 2.2.3.4.2.3.1.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  special characters included
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  Value is greater than or equal to 1
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) not found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 35 		(Key = 2.2.3.4.2.3.2.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  special characters included
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  Value is greater than or equal to 1
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 36 		(Key = 2.2.3.4.2.3.3.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  special characters included
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  Value is greater than or equal to 1
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) is null
+   Default Value                             :  <n/a>
+
+
+Test Case 37 		(Key = 2.2.3.4.2.3.4.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  special characters included
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  Value is greater than or equal to 1
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) has more than or equal 1 character
+   Default Value                             :  <n/a>
+
+
+Test Case 38 		(Key = 2.2.3.4.3.2.1.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  special characters included
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  Value is greater than or equal to 1
+   Capitalization of given substring(-c str) :  String(str) not found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 39 		(Key = 2.2.3.4.3.2.2.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  special characters included
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  Value is greater than or equal to 1
+   Capitalization of given substring(-c str) :  String(str) found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 40 		(Key = 2.2.3.4.3.2.3.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  special characters included
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  Value is greater than or equal to 1
+   Capitalization of given substring(-c str) :  String(str) is null
+   Default Value                             :  <n/a>
+
+
+Test Case 41 		(Key = 2.2.3.4.3.2.4.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  special characters included
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  Value is greater than or equal to 1
+   Capitalization of given substring(-c str) :  String(str) has more than or equal 1 character
+   Default Value                             :  <n/a>
+
+
+Test Case 42 		(Key = 2.2.3.4.3.3.1.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  special characters included
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) not found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 43 		(Key = 2.2.3.4.3.3.2.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  special characters included
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 44 		(Key = 2.2.3.4.3.3.3.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  special characters included
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) is null
+   Default Value                             :  <n/a>
+
+
+Test Case 45 		(Key = 2.2.3.4.3.3.4.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  special characters included
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) has more than or equal 1 character
+   Default Value                             :  <n/a>
+
+
+Test Case 46 		(Key = 2.2.4.2.2.3.1.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  Value between 0 and 25
+   Right(-r  value)                          :  Value is greater than or equal to 1
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) not found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 47 		(Key = 2.2.4.2.2.3.2.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  Value between 0 and 25
+   Right(-r  value)                          :  Value is greater than or equal to 1
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 48 		(Key = 2.2.4.2.2.3.3.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  Value between 0 and 25
+   Right(-r  value)                          :  Value is greater than or equal to 1
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) is null
+   Default Value                             :  <n/a>
+
+
+Test Case 49 		(Key = 2.2.4.2.2.3.4.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  Value between 0 and 25
+   Right(-r  value)                          :  Value is greater than or equal to 1
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) has more than or equal 1 character
+   Default Value                             :  <n/a>
+
+
+Test Case 50 		(Key = 2.2.4.2.3.2.1.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  Value between 0 and 25
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  Value is greater than or equal to 1
+   Capitalization of given substring(-c str) :  String(str) not found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 51 		(Key = 2.2.4.2.3.2.2.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  Value between 0 and 25
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  Value is greater than or equal to 1
+   Capitalization of given substring(-c str) :  String(str) found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 52 		(Key = 2.2.4.2.3.2.3.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  Value between 0 and 25
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  Value is greater than or equal to 1
+   Capitalization of given substring(-c str) :  String(str) is null
+   Default Value                             :  <n/a>
+
+
+Test Case 53 		(Key = 2.2.4.2.3.2.4.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  Value between 0 and 25
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  Value is greater than or equal to 1
+   Capitalization of given substring(-c str) :  String(str) has more than or equal 1 character
+   Default Value                             :  <n/a>
+
+
+Test Case 54 		(Key = 2.2.4.2.3.3.1.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  Value between 0 and 25
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) not found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 55 		(Key = 2.2.4.2.3.3.2.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  Value between 0 and 25
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 56 		(Key = 2.2.4.2.3.3.3.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  Value between 0 and 25
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) is null
+   Default Value                             :  <n/a>
+
+
+Test Case 57 		(Key = 2.2.4.2.3.3.4.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  Value between 0 and 25
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) has more than or equal 1 character
+   Default Value                             :  <n/a>
+
+
+Test Case 58 		(Key = 2.2.4.4.2.3.1.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  Value is greater than or equal to 1
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) not found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 59 		(Key = 2.2.4.4.2.3.2.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  Value is greater than or equal to 1
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 60 		(Key = 2.2.4.4.2.3.3.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  Value is greater than or equal to 1
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) is null
+   Default Value                             :  <n/a>
+
+
+Test Case 61 		(Key = 2.2.4.4.2.3.4.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  Value is greater than or equal to 1
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) has more than or equal 1 character
+   Default Value                             :  <n/a>
+
+
+Test Case 62 		(Key = 2.2.4.4.3.2.1.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  Value is greater than or equal to 1
+   Capitalization of given substring(-c str) :  String(str) not found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 63 		(Key = 2.2.4.4.3.2.2.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  Value is greater than or equal to 1
+   Capitalization of given substring(-c str) :  String(str) found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 64 		(Key = 2.2.4.4.3.2.3.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  Value is greater than or equal to 1
+   Capitalization of given substring(-c str) :  String(str) is null
+   Default Value                             :  <n/a>
+
+
+Test Case 65 		(Key = 2.2.4.4.3.2.4.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  Value is greater than or equal to 1
+   Capitalization of given substring(-c str) :  String(str) has more than or equal 1 character
+   Default Value                             :  <n/a>
+
+
+Test Case 66 		(Key = 2.2.4.4.3.3.1.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) not found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 67 		(Key = 2.2.4.4.3.3.2.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) found in file
+   Default Value                             :  <n/a>
+
+
+Test Case 68 		(Key = 2.2.4.4.3.3.3.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) is null
+   Default Value                             :  <n/a>
+
+
+Test Case 69 		(Key = 2.2.4.4.3.3.4.0.)
+   File exists or not                        :  Exists
+   Size                                      :  Not empty
+   Content                                   :  alphanumeric
+   Encoding(-n value)                        :  No value provided
+   Right(-r  value)                          :  No Value provided
+   Left(-l  value)                           :  No Value provided
+   Capitalization of given substring(-c str) :  String(str) has more than or equal 1 character
+   Default Value                             :  <n/a>
+

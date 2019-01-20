@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00283e</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="transparent">#799f9f9f</color>
+    <color name="errorRed">#e02225</color>
+    <color name="themedBlue">#3477e2</color>
+    <color name="themedLightGrey">#acacac</color>
+    <color name="themedCheckBox">#54ab5e</color>
+    <color name="themedTransparent">#96ffffff</color>
+    <color name="registerButton">#ed4e4e</color>
+    <color name="textButton">#efefef</color>
+    <color name="themedGreen">#7fc574</color>
+    <color name="brightWhite">#f4f4f4</color>
+
+    <color name="status_bar_color">#00283e</color>
+
+    <!--Practice Quiz Colors-->
+    <color name="themedPracticeBackground">#00283e</color>
+    <color name="themedOffWhite">#d9d9d9</color>
+    <color name="themedOffBlack">#0e0e0e</color>
+    <color name="themedHighlightOrange">#e48255</color>
+    <color name="themedHighlightRed">#e67676</color>
+    <color name="themedHighlightGreen">#8eca82</color>
+    <color name="themedHighlightPurple">#c48aed</color>
+    <color name="themedHighlightBlue">#64a8e1</color>
+    <color name="themedHighlightYellow">#e1d064</color>
+    <color name="themedHighlightYellowDisabled">#5b594b</color>
+    <color name="themedShadowMid">#1f000000</color>
+    <color name="themedShadowEnd">#42000000</color>
+
+    <!--Results-->
+    <color name ="themedGreenText">#287831</color>
+    <color name ="themedRedCheckbox">#bf5959</color>
+</resources>

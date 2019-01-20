@@ -1,0 +1,5 @@
+Storing a State to be shared across all activities
+https://developer.android.com/training/data-storage/shared-preferences
+
+Android Life Cycles:
+https://developer.android.com/guide/components/activities/activity-lifecycle

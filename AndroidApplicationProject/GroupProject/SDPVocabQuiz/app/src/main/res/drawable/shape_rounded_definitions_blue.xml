@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- This is for the bottom container-->
+    <item
+        >
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/themedHighlightBlue" />
+            <corners
+                android:radius="8dp" />
+        </shape>
+    </item>
+
+    <item
+        >
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <gradient
+                android:centerColor="@color/themedShadowMid"
+                android:endColor="@color/themedShadowEnd"
+                android:angle="270" />
+            <corners
+                android:radius="8dp"/>
+            <padding
+                android:left="0dp"
+                android:top="25dp"
+                android:right="10dp"
+                android:bottom="25dp" />
+        </shape>
+    </item>
+</layer-list>

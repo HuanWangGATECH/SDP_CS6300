@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">SDPVocabQuiz</string>
+
+    // Quiz Selection Resopnse
+    <string name="selection_correct">"That is correct!"</string>
+    <string name="selection_incorrect">"Sorry, that is wrong."</string>
+    <string name="selection_alreadySelected">"You've already answered this question. Click the arrow to the right to continue onto the next question."</string>
+
+    // Messages
+    <string name="error_username_in_use">Username already in use</string>
+    <string name="error_username_not_exist">"Username does not exist"</string>
+    <string name="error_username_cant_empty">Username cannot be empty</string>
+    <string name="error_email_invalid_format">Invalid Email format</string>
+    <string name="msg_registration_success">Registration Successful</string>
+    <string name="msg_registration_fail">Invalid Entries</string>
+    <string name="msg_logging_in">Logging in...</string>
+    <string name="msg_cant_add_words">Reached maximum of 10 Words</string>
+    <string name="msg_added_words">Added Words</string>
+    <string name="msg_removed_word_success">Removed Word</string>
+    <string name="msg_removed_word_failure">Remove Word Failed: Quiz needs at least one word</string>
+    <string name="msg_author_cannot_take_quiz">You are the author of this quiz and cannot take it</string>
+    <string name="error_quiz_in_use">Quiz with that name already exist</string>
+    <string name="error_cannot_be_blanks">Cannot be left blank</string>
+    <string name ="toast_delete_quiz_success">Successfully Deleted Quiz</string>
+
+    // Dialog
+    <string name="dialog_title_create_quiz">"Create Quiz?"</string>
+    <string name="dialog_message_create_quiz">You are about to create your quiz. Do you want to proceed?</string>
+
+    <string-array name="seniorityLevels">
+        <item>Freshman</item>
+        <item>Sophomore</item>
+        <item>Junior</item>
+        <item>Senior</item>
+        <item>Graduate</item>
+    </string-array>
+
+    <string-array name="majors">
+        <item>Accounting</item>
+        <item>Aerospace Engineering</item>
+        <item>Architecture</item>
+        <item>Astronomy</item>
+        <item>Biomedical Engineering</item>
+        <item>Biology</item>
+        <item>Business</item>
+        <item>Chemistry</item>
+        <item>Computer Science</item>
+        <item>Computer Engineering</item>
+        <item>Dance</item>
+        <item>Electrical Engineering</item>
+        <item>Engineering</item>
+        <item>Film</item>
+        <item>Graphic Design</item>
+        <item>History</item>
+        <item>Information Systems</item>
+        <item>Journalism</item>
+        <item>Kinesiology</item>
+        <item>Landscape Architecture</item>
+        <item>Mathematics</item>
+        <item>Mechanical Engineering</item>
+        <item>Nursing</item>
+        <item>Organic/Urban Farming</item>
+        <item>Psychology</item>
+        <item>Pharmacy</item>
+        <item>Pre-Dental</item>
+        <item>Pre-Medical</item>
+        <item>Political Science</item>
+        <item>Supply Chain Management</item>
+        <item>Theatre</item>
+        <item>Urban Planning</item>
+        <item>Video Game Design</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello quiz blank fragment</string>
+</resources>
